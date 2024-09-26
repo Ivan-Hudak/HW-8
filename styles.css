@@ -1,0 +1,85 @@
+.text-box h3 {
+    color: pink;
+}
+
+.text-box p#greycol {
+    color: grey;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box p:nth-of-type(6) {
+    color: green;
+}
+
+.text-box p.yellow {
+    color: yellow;
+}
+
+.schedule {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.schedule h2 {
+    text-align: center;
+}
+
+
+.schedule ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.schedule li {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+
+.monday {
+    background-color: lightblue;
+}
+
+.tuesday {
+    background-color: lightgreen;
+}
+
+.wednesday {
+    background-color: lightcoral;
+}
+
+.thursday {
+    background-color: lightgoldenrodyellow; 
+}
+
+.friday {
+    background-color: lightpink; 
+}
+
+
+.schedule li:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.schedule li:nth-child(odd) {
+    font-weight: bold;
+}
+
+.schedule li:nth-child(even):hover {
+    background-color: #ffcccb;
+}
+
+.schedule li:first-child {
+    border-top: 2px solid darkblue;
+}
+
+.schedule li:last-child {
+    border-bottom: 2px solid darkred;
+}
